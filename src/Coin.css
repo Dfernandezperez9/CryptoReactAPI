@@ -1,0 +1,66 @@
+body {
+    background-color: #333;
+    font-family: 'Arial', sans-serif;
+}
+  
+.coin-container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+  
+.coin-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+  
+.coin-info {
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.coin-info p {
+    margin-bottom: 10px;
+}
+  
+.button-favorite {
+    background-color: #999;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+.button-favorite:hover {
+    background-color: #23527c;
+    transform: scale(1.1);
+}
+  
+.link-back {
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+  
+.link-back:hover {
+    color: #23527c;
+}
+
