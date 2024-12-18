@@ -22,9 +22,7 @@ package-lock.json
 .env.test
 .env.production
 
-# Archivos de construcción
-/build/  
-/dist/  
+# Archivos de construcción 
 /out/  
 /public/  
 /build-output/
