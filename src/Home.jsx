@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './Home.css'
@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <>
-        <h1>Best Cryptos of the market rn</h1>
+        <h1>Best Cryptos of the market right now</h1>
         <p>Left click on your preferred Crypto to display its details</p>
         <p><Link to="/favorites" className="link-favorites">Display your favorites</Link></p>
         <div>
